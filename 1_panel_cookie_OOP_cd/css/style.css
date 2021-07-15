@@ -1,0 +1,49 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.panel {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    min-height: 5rem;
+    width: 50%;
+    border-top: .1rem solid;
+    border-left: .1rem solid;
+    line-height: 1.4rem;
+    padding: .5rem;
+}
+
+.panel__text {
+    width: 85%;
+    text-align: justify;
+    padding: .5rem;
+}
+
+.panel__close {
+    position: absolute;
+    top: .5rem;
+    right: 0.5rem;
+    padding: .5rem;
+}
+
+.panel__close a {
+    text-decoration: none;
+    color: gray;
+}
+
+.panel__close a:hover {
+    color: red;
+}
+
+
+
+
+
